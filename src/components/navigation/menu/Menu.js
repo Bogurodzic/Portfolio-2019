@@ -34,11 +34,12 @@ export default class Menu extends React.Component {
             return <MenuItem name={item.name} icon={item.icon} />
         });
 
-        return(
-            <div className="menu">
+        return (
+            <div>
+                huehueheu
                 { menuItems }
             </div>
         )
     }
-}
 
+}

@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import Counter from '../Counter';
-import Menu from '../menu/Menu';
+import Navigation from '../navigation/Navigation';
 
 function App() {
   return (
     <div>
-      <Menu />
+      <Navigation />
       <Counter />
     </div>
 
