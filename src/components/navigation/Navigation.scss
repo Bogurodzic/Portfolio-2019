@@ -1,5 +1,5 @@
 .menu {
-    position: absolute;
+    position: static;
     left: 0;
     top: 0;
 
@@ -10,7 +10,6 @@
 
     width: 10vw;
     min-width: 100px;
-    max-width: 150px;
     height: 100vh;
     background: red;
 }

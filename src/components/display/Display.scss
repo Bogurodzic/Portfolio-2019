@@ -1,0 +1,13 @@
+.display-wrapper {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    height: 80%;
+    width: 80%;
+    border: 5px solid black;
+}
