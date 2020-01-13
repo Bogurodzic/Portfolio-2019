@@ -4,9 +4,11 @@ import Counter from '../Counter';
 import Navigation from '../navigation/Navigation';
 import Display from '../display/Display';
 
+import '../../resources/styles/reset.scss';
+
 function App() {
   return (
-    <div class="App">
+    <div className="App">
       <Navigation />
       <Display />
       {/* <Counter /> */}

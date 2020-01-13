@@ -31,12 +31,11 @@ export default class Menu extends React.Component {
 
     render() {
         const menuItems = this.menuItems.map((item, key) => {
-            return <MenuItem name={item.name} icon={item.icon} />
+            return <MenuItem name={item.name} icon={item.icon} key={item.name} />
         });
 
         return (
             <div>
-                huehueheu
                 { menuItems }
             </div>
         )
