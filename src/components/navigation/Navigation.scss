@@ -1,3 +1,5 @@
+@import '../../resources/styles/variables.scss';
+
 .menu {
     position: static;
     left: 0;
@@ -14,5 +16,5 @@
     width: 10vw;
     min-width: 100px;
     height: 100vh;
-    background: red;
+    background: $base-background-color;
 }
