@@ -1,7 +1,10 @@
+@import '../../../resources/styles/variables.scss';
+
+
 .avatar {
-    width: 75%;
+    width: 60%;
     height: 100px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .avatar__image {

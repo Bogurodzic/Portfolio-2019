@@ -5,13 +5,14 @@ import './MenuItem.scss';
 function MenuItem(props) {
 
     return (
-        <div>
-            <h2 className="menu-item">
-                {props.name}
-            </h2>
-            <div>
+        <div className={"menu-item " + (props.isActive ? "menu-item--active" : "")}>
+            {props.isActive}
+            <div className="menu-item-icon">
                 {props.icon}
             </div>
+            <h3 className="menu-item__name">
+                {props.name}
+            </h3>
         </div>
     )
 }

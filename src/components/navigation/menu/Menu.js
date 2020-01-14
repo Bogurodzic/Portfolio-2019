@@ -9,19 +9,28 @@ export default class Menu extends React.Component {
     menuItems = [
         {
             name: 'home',
-            icon: 'home'
+            icon: 'home',
+            isActive: true
         },
         {
-            name: 'skills',
-            icon: 'skills'
+            icon: 'about-me',
+            name: 'about me',
+            isActive: false
         },
         {
             name: 'resume',
-            icon: 'resume'
+            icon: 'resume',
+            isActive: false
+        },
+        {
+            icon: 'portfolio',
+            name: 'portfolio',
+            isActive: false
         },
         {
             name: 'contact',
-            icon: 'contact'
+            icon: 'contact',
+            isActive: false
         }
     ]
 
@@ -31,11 +40,11 @@ export default class Menu extends React.Component {
 
     render() {
         const menuItems = this.menuItems.map((item, key) => {
-            return <MenuItem name={item.name} icon={item.icon} key={item.name} />
+            return <MenuItem name={item.name} icon={item.icon} key={item.name} isActive={item.isActive}/>
         });
 
         return (
-            <div>
+            <div className="menu">
                 { menuItems }
             </div>
         )

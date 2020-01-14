@@ -5,7 +5,7 @@ import './Author.scss';
 function Author(props) {
 
     return(
-        <h3 className="author">Kamil Jarząb</h3>
+        <h1 className="author">Kamil<br />Jarząb</h1>
     )
 
 }
